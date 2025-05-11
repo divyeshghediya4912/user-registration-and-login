@@ -1,0 +1,279 @@
+.dew_form label { display: block; float: left; width: 130px; }
+.dew_form input[type="text"], .dew_form input[type="password"],
+.dew_form input[type="email"] {
+	padding: 4px 8px;
+	background: #f0f0f0;
+	border: 1px solid #ccc;
+}
+.dew_form input[type="text"]:focus, .dew_form input[type="password"]:focus,
+.dew_form input[type="email"]:focus {
+	border-color: #aaa;
+}
+ 
+.dew_errors { padding: 8px; border: 1px solid #f50; margin: 0 0 15px; }
+
+.ajax-auth h1, .ajax-auth h3{
+	font-weight: 100;
+	color: #333333;
+	line-height: 1;
+}
+
+.ajax-auth h1{
+	font-size: 27px;
+	text-align: center;
+	margin: 0 0 20px 0;
+}
+
+.ajax-auth h3{
+	font-size: 18px;
+	text-align: left;
+	margin: 0;
+}
+
+.ajax-auth h3 a{
+	color: #e25c4c;
+}
+
+.ajax-auth hr {
+	background-color: rgba(0, 0, 0, 0.1);
+	border: 0 none;
+	height: 1px;
+	margin: 20px 0;
+}
+
+.ajax-auth input#username,
+.ajax-auth input#password,
+.ajax-auth input#signonname,
+.ajax-auth input#firstname,
+.ajax-auth input#lastname,
+.ajax-auth input#email,
+.ajax-auth input#password2{
+	border: 1px solid #cccccc;
+	padding: 10px 10px 10px 13px;
+	width: 100%;
+}
+
+.ajax-auth input#username:focus,
+.ajax-auth input#password:focus,
+.ajax-auth input#signonname:focus,
+.ajax-auth input#email:focus,
+.ajax-auth input#firstname:focus,
+.ajax-auth input#lastname:focus,
+.ajax-auth input#password2:focus{
+	background-color: #FFF;
+}
+
+.ajax-auth label.error{
+	display: none;
+	text-align: left;
+	width: auto;
+}
+
+.ajax-auth input.error, .ajax-auth textarea.error{
+	border: 1px solid #FF0000 !important;
+}
+
+.ajax-auth textarea {
+	resize: none;
+}
+
+.ajax-auth input.submit_button{
+	font-size: 13px;
+	color: #FFF;
+	border: 1px solid #8d9199;
+	background-color: #8d9199;
+	border-radius: 0px;
+	text-shadow: 0 1px 0 #8d9199;
+	padding: 9px 31px 9px 31px;
+	background: -moz-linear-gradient(top, #8d9199, #8d9199);
+	border-top: 1px solid #8d9199;
+	border-bottom: 1px solid #8d9199;
+	float: left;
+	box-shadow: 0 1px 0 #8d9199 inset;
+	margin-top: 40px;
+}
+
+.ajax-auth a{
+	text-decoration: none;
+}
+
+.ajax-auth a.close{
+	color: #DCDCDC;
+	position: absolute;
+	right: 15px;
+	top: 15px;
+}
+
+.ajax-auth a.text-link{
+	color: #B4B2B2;
+	float: left;
+	margin: 10px 0 0 0;
+}
+
+.ajax-auth p.status{
+	text-align: center;
+	margin: -15px 0 20px 0;
+	font-weight: 600;
+	display: none;
+}
+
+a.login_button{
+	padding: 5px 7px 5px 7px;
+	background-color: #FFF;
+	border-radius: 3px;
+	border: 1px solid #DCDCDC;
+	color: #333;
+	text-decoration: none;
+	font-size: 11px;
+}
+
+.login_overlay{
+	height: 100%;
+	width: 100%;
+	background-color: #F6F6F6;
+	opacity: 0.9;
+	position: fixed;
+	z-index: 998;
+}
+
+.row-colum {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	height: 70px;
+}
+
+.half-colum {-webkit-box-flex: 0;
+	-ms-flex: 0 0 45%;
+	flex: 0 0 46%;
+	max-width: 46%;
+	padding: 8px;
+	
+}
+
+.border-none {
+	border: none;
+	-webkit-box-shadow:0px solid #fff;
+	box-shadow:0px solid #fff;
+}
+
+.col-md-12-colum {
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 100%;
+	flex: 0 0 95%;
+	max-width: 95%;
+	padding:8px; 
+}
+
+.border-remove input[type=text], input[type=password], input[type=email], input[type=url], input[type=date], input[type=tel], input.wpcf7-text, .woocommerce table.cart td.actions .coupon .input-text, .woocommerce-page table.cart td.actions .coupon .input-text, .woocommerce #content table.cart td.actions .coupon .input-text, .woocommerce-page #content table.cart td.actions .coupon .input-text, select, textarea {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.design-section p {
+	padding: 0px;
+	line-height: 1.1;
+	color: #000;
+	font-weight: 600;
+
+}
+.design-section {
+	padding-bottom: 20px;
+}
+.design-section h2 {
+	margin-bottom: 15px;
+}
+
+.row-colum-login {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	height: 70px;
+}
+
+.row-colum-login .col-md-12-colum {
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 100%;
+	flex: 0 0 95%;
+	max-width: 95%;
+	padding:0px; 
+}
+.row-colum-login  input[type=text], input[type=password], input[type=email], input[type=url], input[type=date], input[type=tel], input.wpcf7-text, .woocommerce table.cart td.actions .coupon .input-text, .woocommerce-page table.cart td.actions .coupon .input-text, .woocommerce #content table.cart td.actions .coupon .input-text, .woocommerce-page #content table.cart td.actions .coupon .input-text, select, textarea {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.login-main input.submit_button {
+	font-size: 13px;
+	color: #FFF;
+	border: 1px solid #8d9199;
+	background-color: #8d9199;
+	border-radius: 0px;
+	text-shadow: 0 1px 0 #8d9199;
+	padding: 9px 31px 9px 31px;
+	background: -moz-linear-gradient(top, #8d9199, #8d9199);
+	border-top: 1px solid #8d9199;
+	border-bottom: 1px solid #8d9199;
+	text-align: center !important;
+	box-shadow: 0 1px 0 #8d9199 inset;
+	margin-top: 10px;
+	float: unset;
+}
+
+.password-class {
+	padding-top: 30px;
+	font-weight: 600;
+	color: #000;
+	text-decoration: underline;
+}
+
+.password-class a{
+	font-weight: 600;
+	color: #000;
+}
+
+form.ajax-auth.dew_form {
+	width: 500px;
+	padding: 40px 25px 40px 25px;
+	background-color: #FFFFFF;
+	box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 650px) {
+	.col-md-12-colum {
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%;
+		padding:8px 0px; 
+	}
+	.row-colum-login .col-md-12-colum {
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%;
+		padding:0px; 
+	}
+	.half-colum {
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 45%;
+		flex: 0 0 100%;
+		max-width: 100%;
+		padding: 8px 0px;
+	}
+	.row-colum {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		height: auto;
+	}
+	.standard_wrapper {
+		width: 100%;
+		padding: 0;
+	}
+}
